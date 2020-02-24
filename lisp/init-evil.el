@@ -13,6 +13,9 @@
 (define-key evil-normal-state-map (kbd "C-c =") 'evil-numbers/inc-at-pt)
 (define-key evil-normal-state-map (kbd "C-c -") 'evil-numbers/dec-at-pt)
 
+;; evil-surround
+(require-package 'evil-surround)
+(global-evil-surround-mode 1)
 
 (provide 'init-evil)
 
