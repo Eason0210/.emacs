@@ -436,12 +436,13 @@ If the character before and after CH is space or tab, CH is NOT slash"
   "tfm" 'toggle-frame-maximized
   "ti" 'fastdef-insert
   "th" 'fastdef-insert-from-history
-  "ci" 'evilnc-comment-or-uncomment-lines
-  "cl" 'evilnc-quick-comment-or-uncomment-to-the-line
-  "cc" 'evilnc-copy-and-comment-lines
-  "cp" 'my-evilnc-comment-or-uncomment-paragraphs
-  "ct" 'evilnc-comment-or-uncomment-html-tag ; evil-nerd-commenter v3.3.0 required
-  "ic" 'my-imenu-comments
+  "cl" 'comment-line
+  ;; "ci" 'evilnc-comment-or-uncomment-lines
+  ;; "cl" 'evilnc-quick-comment-or-uncomment-to-the-line
+  ;; "cc" 'evilnc-copy-and-comment-lines
+  ;; "cp" 'my-evilnc-comment-or-uncomment-paragraphs
+  ;; "ct" 'evilnc-comment-or-uncomment-html-tag ; evil-nerd-commenter v3.3.0 required
+  ;; "ic" 'my-imenu-comments
   ;; {{ window move
   "wh" 'evil-window-left
   "wl" 'evil-window-right

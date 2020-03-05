@@ -29,7 +29,7 @@
 (when *is-a-win64*
 
   ;;Python shell setting
-  ;; (setq python-shell-interpreter "ipython")
+  (setq python-shell-interpreter "ipython")
   (setq python-shell-interpreter-args "-i")
   (setq python-shell-prompt-regexp "In \\[[0-9]+\\]: ")
   (setq python-shell-prompt-output-regexp "Out\\[[0-9]+\\]: ")
